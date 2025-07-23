@@ -1,6 +1,6 @@
 # Spring-AI-ToolKit
 ### Objective
-Basics to Pro - Spring AI
+Spring AI - Basics to Pro
 - Retrieval Augmented Generation RAG
 - AI recommendation Expert with RAG
 - Open AI Functions
