@@ -1,4 +1,4 @@
-package guru.springframework.springaipromptengineering;
+package com.springai.spring_ai_intro;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.ai.chat.model.ChatResponse;
@@ -12,9 +12,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import java.util.Map;
 import java.util.UUID;
 
-/**
- * Created by jt, Spring Framework Guru.
- */
 @SpringBootTest
 public class ZeroAndFewShotTests extends BaseTestClass {
 
@@ -65,7 +62,7 @@ public class ZeroAndFewShotTests extends BaseTestClass {
 
         OpenAiChatOptions openAiChatOptions = OpenAiChatOptions.builder()
                // .temperature(1.2) //default is 0.7, lower is more deterministic, higher is more creative
-                .model("gpt-4o")
+                .model("gpt-4.1-nano")
                 .build();
 
         // java for loop 3 times
@@ -106,7 +103,6 @@ public class ZeroAndFewShotTests extends BaseTestClass {
 
     String vacationPrompt = """
             John likes white sand beaches and warm weather.
-            
             What are 5 locations John should consider for vacation?
             """;
 

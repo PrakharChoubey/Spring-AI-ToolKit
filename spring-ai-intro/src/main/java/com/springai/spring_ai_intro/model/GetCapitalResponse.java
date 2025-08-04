@@ -1,4 +1,6 @@
 package com.springai.spring_ai_intro.model;
 
-public record GetCapitalResponse() {
+import com.fasterxml.jackson.annotation.JsonPropertyDescription;
+
+public record GetCapitalResponse(@JsonPropertyDescription("This is the city name") String answer) {
 }

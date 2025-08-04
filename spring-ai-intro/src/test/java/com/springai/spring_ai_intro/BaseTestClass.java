@@ -1,4 +1,4 @@
-package guru.springframework.springaipromptengineering;
+package com.springai.spring_ai_intro;
 
 import org.springframework.ai.chat.model.ChatModel;
 import org.springframework.ai.chat.prompt.Prompt;
@@ -7,9 +7,6 @@ import org.springframework.ai.chat.prompt.PromptTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 
-/**
- * Created by jt, Spring Framework Guru.
- */
 @SpringBootTest
 public class BaseTestClass {
 

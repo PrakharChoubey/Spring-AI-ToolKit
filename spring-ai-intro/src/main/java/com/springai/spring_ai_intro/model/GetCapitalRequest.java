@@ -1,4 +1,4 @@
 package com.springai.spring_ai_intro.model;
 
-public record GetCapitalRequest() {
+public record GetCapitalRequest(String stateOrCountry) {
 }

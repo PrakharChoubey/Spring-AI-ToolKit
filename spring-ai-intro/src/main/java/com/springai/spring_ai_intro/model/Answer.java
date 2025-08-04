@@ -1,4 +1,4 @@
 package com.springai.spring_ai_intro.model;
 
-public record Answer() {
+public record Answer(String answer) {
 }

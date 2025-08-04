@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: spring-ai-rag
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4o-mini
+      embedding:
+        options:
+#          model: text-embedding-ada-002
+          model: text-embedding-3-small
+
+rag:
+  aiapp:
+    vectorStorePath: /tmp/vectorstore.json
+    documentsToLoad:
+      - classpath:/movies.csv

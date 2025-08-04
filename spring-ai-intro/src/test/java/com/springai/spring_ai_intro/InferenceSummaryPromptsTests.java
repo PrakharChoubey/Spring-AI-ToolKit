@@ -1,4 +1,4 @@
-package guru.springframework.springaipromptengineering;
+package com.springai.spring_ai_intro;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -7,14 +7,10 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.Map;
 
-/**
- * Created by jt, Spring Framework Guru.
- */
 @SpringBootTest
-public class InferenceTests extends BaseTestClass {
+public class InferenceSummaryPromptsTests extends BaseTestClass {
 
     //Using AI to infer the sentiment of a review or topic
-
     String review1 = """
             I recently purchased the Stanley 40oz Tumbler in the vibrant Citron color, and I am thoroughly impressed with its performance in every aspect. From its sleek design to its remarkable durability and easy washability, this tumbler has quickly become my go-to companion for all my hydration needs.
                         

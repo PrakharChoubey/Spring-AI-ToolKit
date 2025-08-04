@@ -1,4 +1,5 @@
 package com.springai.spring_ai_intro.model;
 
-public class Question {
+public record Question(String question) {
+
 }

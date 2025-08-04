@@ -1,15 +1,10 @@
-package guru.springframework.springaipromptengineering;
+package com.springai.spring_ai_intro;
 
 import org.junit.jupiter.api.Test;
 
 import org.springframework.ai.chat.model.ChatResponse;
 import org.springframework.ai.chat.prompt.PromptTemplate;
 
-
-
-/**
- * Created by jt, Spring Framework Guru.
- */
 public class ChainOfThoughtTests extends BaseTestClass {
 
     /*
@@ -44,9 +39,7 @@ public class ChainOfThoughtTests extends BaseTestClass {
                 """.stripIndent();
 
         PromptTemplate promptTemplate = new PromptTemplate(chainOfThoughtPrompt);
-
         ChatResponse response = chatModel.call(promptTemplate.create());
-
         System.out.println(response.getResult().getOutput().getText());
     }
 
@@ -58,9 +51,7 @@ public class ChainOfThoughtTests extends BaseTestClass {
                 """.stripIndent();
 
         PromptTemplate promptTemplate = new PromptTemplate(prompt);
-
         ChatResponse response = chatModel.call(promptTemplate.create());
-
         //models previously would answer 27
         System.out.println(response.getResult().getOutput().getText());
     }
