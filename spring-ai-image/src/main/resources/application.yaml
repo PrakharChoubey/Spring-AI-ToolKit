@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: spring-ai-image
+
+  ai:
+    openai:
+      api-key: ${OPENAI_API_KEY}
+      chat:
+        options:
+          model: gpt-4o
+
+#aifunc:
+#aiapp:
+#ninjasApiKey: ${NINJAS_API_KEY}
