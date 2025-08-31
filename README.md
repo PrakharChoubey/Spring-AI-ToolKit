@@ -25,6 +25,10 @@ Spring AI - Basics to Pro
     - Used System Messages to improve Model Response.
 
 - Spring AI Image Generation & Vision
-    -
+    - DALL-E, to create/output an image from imput description (text -> Image)
+     - OpenAI Vision, for vision capabilities, to output description from input image (image -> text desc.)
+    - Used OpenAI Image Options, to cusomtize the model behaviour and output.
+   
 - Spring AI Text to Speech
-    - 
+    - OpenAI tts-1 model for text to speech
+    - Used OpenAi Audio Speech Options to customize the model, voice, speed & response format of the speech/audio output.
