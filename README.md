@@ -27,7 +27,7 @@ Spring AI - Basics to Pro
 - Spring AI Image Generation & Vision
     - DALL-E, to create/output an image from imput description (text -> Image)
      - OpenAI Vision, for vision capabilities, to output description from input image (image -> text desc.)
-    - Used OpenAI Image Options, to cusomtize the model behaviour and output.
+    - Used OpenAI Image Options, to cusomtize the model behaviour & output.
    
 - Spring AI Text to Speech
     - OpenAI tts-1 model for text to speech
